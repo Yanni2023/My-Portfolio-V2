@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css' rel='stylesheet' />
+
+
+    <link rel="stylesheet" href="style.css">
+
+
+
+    <title>Yannique Graham | Email Developer</title>
+
+    <style>
+
+        body::before {
+            display: none;
+                }
+    
+    @media (max-width: 996px) {
+
+        button.navbar-toggler {
+            display: none;
+        }
+        
+    }
+        
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-1">
+        <div class="container ">
+            <a href="#" class="navbar-brand" style="display: none">Yannique's Portfolio</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+ 
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#learn" class="nav-link"></a>
+                    </li>
+                    <li class="nav-item" style="display: none;">
+                        <a href="#questions" class="nav-link">FAQ</a>
+                    </li>
+                    <li style="font-size: 0;" class="nav-item">
+                        <a href="#instructors" class="nav-link">Recommendations</a>
+                    </li>
+                </ul>
+            </div>
+
+
+        </div>
+    </nav>
+
+    <!-- Showcase -->
+    <section class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>I Am Email Developer <br> <span class="text-warning">Yannique Graham</span> </h1>
+                    <p class="lead my-4">  
+                        As a Email Developer with three years of experience, I am skilled in designing, coding, and implementing effective email campaigns. I have a strong understanding of email best practices, including segmentation, A/B testing, and automation, and am adept at using data and analytics to continually improve the performance of campaigns. With my expertise in HTML/CSS and Responsive Design, I am able to create custom email templates that are optimized for different email clients and devices, ensuring that messages are delivered and displayed effectively.
+                        I am passionate about Email Marketing and the impact it can have on businesses of all sizes. If given the opportunity, I am confident that I can bring my skills and experience to your team and help you achieve your email marketing goals.
+                    </p>
+
+                    <button style="display: none;" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#enroll">Submit</button> </div>
+                <img class="img-fluid w-50 d-none d-sm-block" src="img/showcase.svg" alt="">
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="bg-primary text-light p-5" style="display: none;">
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-items-center">
+                <h3 class="mb-3 mb-md-0">Sign Up For Our Newsletter</h3>
+
+                <div class="input-group news-input">
+                    <input type="text" class="form-control" placeholder="Enter Email" />
+                    <button class="btn btn-dark btn-lg" type="button">Submit</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Boxes -->
+    <section class="p-5">
+        <div class="container">
+            <div class="row text-center g-4">
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-laptop"></i>
+                            </div>
+                            <h3 class="card-title mb-3">Promotional</h3>
+                            <p class="card-text">Here I have my promotional email. <br>
+                                It is a responsive email and dark mode compatible. </p>
+                            <a target="_blank" href="https://yanni2023.github.io/Responsive-Promotional-Email-/" class="btn btn-primary">Take a look</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-secondary text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-person-square"></i>
+                            </div>
+                            <h3 class="card-title mb-3">Transactional</h3>
+                            <p class="card-text">Here I have my rebuild of a google transactional email. It is a responsive email and dark mode compatible.</p>
+                            <a target="_blank" href="https://yanni2023.github.io/Google-Transactional-Email/" class="btn btn-dark">Inspect</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-people"></i>
+                            </div>
+                            <h3 class="card-title mb-3">Newsletter</h3>
+                            <p class="card-text">My simple landing page for a company's newsletter. Responsive. I had fun designing the css in this one. </p>
+                            <a target="_blank" href="https://yanni2023.github.io/Apothecary-Newsletter-HTML-CSS-/" class="btn btn-primary">Inspect</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md" >
+                    <div class="card bg-secondary text-light">
+                        <div class="card-body text-center" >
+                            <div class="h1 mb-3">
+                                <i class="bi bi-chevron-right"></i>
+                            </div>
+                            <h3 class="card-title mb-3">Retarget</h3>
+                            <p  class="card-text">Here I have my rebuild Lavva promotional email. <br> I orginally built it using <br> MJML. </p>
+                            <a target="_blank" href="https://yanni2023.github.io/Lavva-Email-Rebuild-/" class="btn btn-dark">Inspect</a>
+                        </div>
+                    </div>
+                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+ <!-- Boxes 2 -->
+ <section class="p-1" style="display: none;">
+    <div class="container">
+        <div class="row text-center g-4">
+
+            <div class="col-md">
+                <div class="card bg-secondary text-light">
+                    <div class="card-body text-center">
+                        <div class="h1 mb-3">
+                            <i class="bi bi-person-square"></i>
+                        </div>
+                        <h3 class="card-title mb-3">Transactional</h3>
+                        <p class="card-text">Here I have my rebuild of a google transactional email. It is a responsive email and dark mode compatible.</p>
+                        <a target="_blank" href="https://yanni2023.github.io/Google-Transactional-Email/" class="btn btn-dark">Inspect</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md" >
+                <div class="card bg-dark text-light">
+                    <div class="card-body text-center">
+                        <div class="h1 mb-3">
+                            <i class="bi bi-people"></i>
+                        </div>
+                        <h3 class="card-title mb-3">Newsletter </h3>
+                        <p class="card-text">Here is my simple landing page for a company's newsletter. It is responsive. I had a lot of fun designing the css in this one. </p>
+                        <a id="learn" target="_blank" href="https://yanni2023.github.io/Apothecary-Newsletter-HTML-CSS-/" class="btn btn-primary">Inspect</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+
+
+
+<!-- Boxes 3 -->
+<section class="p-5">
+    <div class="container">
+        <div class="row text-center g-4">
+            <div class="col-md">
+                <div class="card bg-dark text-light">
+                    <div class="card-body text-center">
+                        <div class="h1 mb-3">
+                            <i class="bi bi-laptop"></i>
+                        </div>
+                        <h3 class="card-title mb-3">Special Offer</h3>
+                        <p class="card-text">Here I have my promotional email. <br>
+                            It is a responsive email and dark mode compatible. </p>
+                        <a target="_blank" href="https://yanni2023.github.io/Travelution-Special-Offer/Travel.html" class="btn btn-primary">Inspect</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card bg-secondary text-light">
+                    <div class="card-body text-center">
+                        <div class="h1 mb-3">
+                            <i class="bi bi-person-square"></i>
+                        </div>
+                        <h3 class="card-title mb-3">Product Launch/Update</h3>
+                        <p class="card-text">Here I have my rebuild of a google transactional email. It is a responsive email and dark mode compatible.</p>
+                        <a target="_blank" href="https://yanni2023.github.io/Google-Transactional-Email/" class="btn btn-dark">Inspect</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card bg-dark text-light">
+                    <div class="card-body text-center">
+                        <div class="h1 mb-3">
+                            <i class="bi bi-people"></i>
+                        </div>
+                        <h3 class="card-title mb-3">Abandon Cart</h3>
+                        <p class="card-text">My simple landing page for a company's newsletter. Responsive. I had fun designing the css in this one. </p>
+                        <a target="_blank" href="https://yanni2023.github.io/Apothecary-Newsletter-HTML-CSS-/" class="btn btn-primary">Inspect</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md" >
+                <div class="card bg-secondary text-light">
+                    <div class="card-body text-center" >
+                        <div class="h1 mb-3">
+                            <i class="bi bi-chevron-right"></i>
+                        </div>
+                        <h3 class="card-title mb-3">Review Request</h3>
+                        <p  class="card-text">Here I have my rebuild Lavva promotional email. <br> I orginally built it using <br> MJML. </p>
+                        <a target="_blank" href="https://yanni2023.github.io/Lavva-Email-Rebuild-/" class="btn btn-dark">Inspect</a>
+                    </div>
+                </div>
+            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Boxes 4 -->
+<section class="p-1" style="display: none;">
+    <div class="container">
+        <div class="row text-center g-4">
+
+            <div class="col-md">
+                <div class="card bg-secondary text-light">
+                    <div class="card-body text-center">
+                        <div class="h1 mb-3">
+                            <i class="bi bi-person-square"></i>
+                        </div>
+                        <h3 class="card-title mb-3">Transactional Email</h3>
+                        <p class="card-text">Here I have my rebuild of a google transactional email. It is a responsive email and dark mode compatible.</p>
+                        <a target="_blank" href="https://yanni2023.github.io/Google-Transactional-Email/" class="btn btn-dark">Inspect</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md" >
+                <div class="card bg-dark text-light">
+                    <div class="card-body text-center">
+                        <div class="h1 mb-3">
+                            <i class="bi bi-people"></i>
+                        </div>
+                        <h3 class="card-title mb-3">Newsletter</h3>
+                        <p class="card-text">Here is my simple landing page for a company's newsletter. It is responsive. I had a lot of fun designing the css in this one. </p>
+                        <a id="learn" target="_blank" href="https://yanni2023.github.io/Apothecary-Newsletter-HTML-CSS-/" class="btn btn-primary">Inspect</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+<!-- Boxes 3 -->
+<section class="p-5">
+    <div class="container">
+        <div class="row text-center g-4">
+            <div class="col-md">
+                <div class="card bg-dark text-light">
+                    <div class="card-body text-center">
+                        <div class="h1 mb-3">
+                            <i class="bi bi-laptop"></i>
+                        </div>
+                        <h3 class="card-title mb-3">Conformation</h3>
+                        <p class="card-text">Here I have my promotional email. <br>
+                            It is a responsive email and dark mode compatible. </p>
+                        <a target="_blank" href="https://yanni2023.github.io/Responsive-Promotional-Email-/" class="btn btn-primary">Inspect</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card bg-secondary text-light">
+                    <div class="card-body text-center">
+                        <div class="h1 mb-3">
+                            <i class="bi bi-person-square"></i>
+                        </div>
+                        <h3 class="card-title mb-3">Milestone</h3>
+                        <p class="card-text">Here I have my rebuild of a google transactional email. It is a responsive email and dark mode compatible.</p>
+                        <a target="_blank" href="https://yanni2023.github.io/Google-Transactional-Email/" class="btn btn-dark">Inspect</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="card bg-dark text-light">
+                    <div class="card-body text-center">
+                        <div class="h1 mb-3">
+                            <i class="bi bi-people"></i>
+                        </div>
+                        <h3 class="card-title mb-3">Welcome</h3>
+                        <p class="card-text">My simple landing page for a company's newsletter. Responsive. I had fun designing the css in this one. </p>
+                        <a target="_blank" href="https://yanni2023.github.io/Apothecary-Newsletter-HTML-CSS-/" class="btn btn-primary">Inspect</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md" >
+                <div class="card bg-secondary text-light">
+                    <div class="card-body text-center" >
+                        <div class="h1 mb-3">
+                            <i class="bi bi-chevron-right"></i>
+                        </div>
+                        <h3 class="card-title mb-3">Progress</h3>
+                        <p  class="card-text">Here I have my rebuild Lavva promotional email. <br> I orginally built it using <br> MJML. </p>
+                        <a target="_blank" href="https://yanni2023.github.io/Lavva-Email-Rebuild-/" class="btn btn-dark">Inspect</a>
+                    </div>
+                </div>
+            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Boxes 4 -->
+<section class="p-1" style="display: none;">
+    <div class="container">
+        <div class="row text-center g-4">
+
+            <div class="col-md">
+                <div class="card bg-secondary text-light">
+                    <div class="card-body text-center">
+                        <div class="h1 mb-3">
+                            <i class="bi bi-person-square"></i>
+                        </div>
+                        <h3 class="card-title mb-3">Transactional</h3>
+                        <p class="card-text">Here I have my rebuild of a google transactional email. It is a responsive email and dark mode compatible.</p>
+                        <a target="_blank" href="https://yanni2023.github.io/Google-Transactional-Email/" class="btn btn-dark">Inspect</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md" >
+                <div class="card bg-dark text-light">
+                    <div class="card-body text-center">
+                        <div class="h1 mb-3">
+                            <i class="bi bi-people"></i>
+                        </div>
+                        <h3 class="card-title mb-3">Newsletter</h3>
+                        <p class="card-text">Here is my simple landing page for a company's newsletter. It is responsive. I had a lot of fun designing the css in this one. </p>
+                        <a id="learn" target="_blank" href="https://yanni2023.github.io/Apothecary-Newsletter-HTML-CSS-/" class="btn btn-primary">Inspect</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+
+
+
+    <!-- Learn Sections -->
+    <section class="p-1 " id="#learn">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img src="img/fundamentals.svg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md p-5">
+                    <h2>As An Email Developer..</h2>
+                    <p class="lead">I have acquired a range of technical and analytical skills, including:
+
+                        </p>
+                    <p> 
+<ul>
+<li>HTML and CSS: I have a strong understanding of HTML and CSS coding and am able to create custom email templates that are visually appealing and optimized for different email clients.</li>
+<li>Email Marketing Best Practices: I am knowledgeable about email marketing best practices, including segmentation, personalization, A/B testing, and automation, and can implement these strategies to improve engagement and conversion rates.</li>
+<li>Analytics and Reporting: I have experience using analytics tools to track email campaign performance and measure success, and can use these insights to continually improve the effectiveness of email marketing campaigns.</li>
+<li>Deliverability: I am familiar with email deliverability best practices and can ensure that emails are properly authenticated and delivered to recipients' inboxes.</li>
+<li>Responsive Design: I am able to create email templates that are optimized for different devices and screen sizes, ensuring that emails are easily readable and accessible to all recipients.</li>
+<li>Collaboration: I am able to work effectively with cross-functional teams, including designers, copywriters, and marketing managers, to ensure that email campaigns align with broader marketing goals and objectives.</li>
+  - Overall, my skills and experience as an email developer enable me to create effective email campaigns that drive results and achieve business objectives.
+
+</ul>
+</p>
+                    <a target="_blank" href="resume/YanniqueGrahamResume.pdf" class="btn btn-light mt3"> <i class="bi bi-chevron-right" ></i> View Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="learn" class="p-5 bg-dark text-light" style="display: none;">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+
+                <div class="col-md p-5">
+                    <h2>Learn React</h2>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui maiores inventore aut eaque consectetur nobis.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis temporibus obcaecati, porro commodi nulla iure dolor sint in similique quibusdam totam libero. Quo blanditiis facere quae, beatae modi consequuntur molestias!</p>
+                    <a href="#" class="btn btn-light mt3"> <i class="bi bi-chevron-right"></i> Read More</a>
+                </div>
+                <div class="col-md">
+                    <img src="img/react.svg" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Question Accordion -->
+    <section id="questions" class="p-3" style="display: none;">
+        <div class="container">
+            <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+            <div class="accordion accordion-flush" id="questions">
+                <!-- Item 1 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-one">
+                      Where exactly are you located?
+                    </button>
+                    </h2>
+                    <div id="question-one" class="accordion-collapse collapse" data-bs-parent="#questions">
+                        <div class="accordion-body">
+                            Chicago, Illnois
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-two">
+                      What platforms did I use to become a html email builder?
+                    </button>
+                    </h2>
+                    <div id="question-two" class="accordion-collapse collapse" data-bs-parent="#questions">
+                        <div class="accordion-body">
+                            Udemy, Codecademy, Freecodecamp, and Betamore Academy 
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-three">
+                      What do I need to know?
+                    </button>
+                    </h2>
+                    <div id="question-three" class="accordion-collapse collapse" data-bs-parent="#questions">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam beatae fuga animi distinctio perspiciatis adipisci velit maiores totam tempora accusamus modi explicabo accusantium consequatur, praesentium rem quisquam molestias at quos vero. Officiis
+                            ad velit doloremque at. Dignissimos praesentium necessitatibus natus corrupti cum consequatur aliquam! Minima molestias iure quam distinctio velit.
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 4 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-four">
+                      How do I sign up?
+                    </button>
+                    </h2>
+                    <div id="question-four" class="accordion-collapse collapse" data-bs-parent="#questions">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam beatae fuga animi distinctio perspiciatis adipisci velit maiores totam tempora accusamus modi explicabo accusantium consequatur, praesentium rem quisquam molestias at quos vero. Officiis
+                            ad velit doloremque at. Dignissimos praesentium necessitatibus natus corrupti cum consequatur aliquam! Minima molestias iure quam distinctio velit.
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 5 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-five">
+                      Do you help me find a job?
+                    </button>
+                    </h2>
+                    <div id="question-five" class="accordion-collapse collapse" data-bs-parent="#questions">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam beatae fuga animi distinctio perspiciatis adipisci velit maiores totam tempora accusamus modi explicabo accusantium consequatur, praesentium rem quisquam molestias at quos vero. Officiis
+                            ad velit doloremque at. Dignissimos praesentium necessitatibus natus corrupti cum consequatur aliquam! Minima molestias iure quam distinctio velit.
+                        </div>
+          
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!--
+
+   <section  class="p-5 bg-primary">
+        <div class="container">
+            <h2 class="text-center text-white">My Recommendations</h2>
+            <p class="lead text-center text-white mb-5"> My recommendations all have 5+ years working as engineers in the industry.
+            </p>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img width="127" src="https://media-exp1.licdn.com/dms/image/C4D03AQGRhbdaobcTFQ/profile-displayphoto-shrink_800_800/0/1639650459300?e=1671667200&v=beta&t=2ceKXheIZayIjiGpcVFom30gSDa1bqXS62LeT40yitY" class="rounded-circle mb-3" alt="">
+                            <h3 class="card-title mb-3">Jared G.</h3>
+                            <p class="card-text">HTML Frontend Developer <br>  PerkSpot</p>
+                            <a target="_blank" href="https://www.linkedin.com/in/jared-graham-990943109/"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img width="127" src="https://media-exp1.licdn.com/dms/image/C4D03AQGn79Fyq2TFlQ/profile-displayphoto-shrink_400_400/0/1560436526722?e=1671667200&v=beta&t=QBv-PhgPab_WkoBaZnOcjSWuJ_-fkVfXjirGdMtf-WA" class="rounded-circle mb-3" alt="">
+                            <h3 class="card-title mb-3">Aaron B.</h3>
+                            <p class="card-text">
+                                DevOps Engineer <br> 
+                                CEO
+                                MASTERMND 
+                            </p>
+                            
+                            <a target="_blank" href="https://www.linkedin.com/in/mastermndio/"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img width="127" src="https://media-exp1.licdn.com/dms/image/C4D03AQEh4DCdC1kXxQ/profile-displayphoto-shrink_400_400/0/1600000091521?e=1671667200&v=beta&t=Z8ieHUuwdIMTS9kKKGpWk8SxUybL_v1kvTezqlZwjlw" class="rounded-circle mb-3" alt="">
+                            <h3 class="card-title mb-3">Natasha J.</h3>
+                            <p class="card-text">UI/UX Designer <br> Smithsonian </p>
+                           
+                            <a target="_blank" href="https://www.linkedin.com/in/natashashanae/"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+ <img width="127" src="https://media-exp1.licdn.com/dms/image/C4D03AQEh4DCdC1kXxQ/profile-displayphoto-shrink_400_400/0/1600000091521?e=1671667200&v=beta&t=Z8ieHUuwdIMTS9kKKGpWk8SxUybL_v1kvTezqlZwjlw" class="rounded-circle mb-3" alt="">
+                            <h3 class="card-title mb-3">Rose A.</h3>
+                            <p class="card-text"> Wordpress Developer <br>
+                                
+                                714WEB
+                            </p>
+                            <a  target="_blank" href="https://www.linkedin.com/in/rose-adam/"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> --> 
+
+    <!-- Contact & Map -->
+    <section class="p-5 ">
+        <div class="container justify-content-center">
+            <div class="row text-center">
+                <div class="col-md">
+                    <h2 class="text-center mb-4">Contact Information</h2>
+                    <ul class=list-group list-group-flush lead">
+                        <li class="list-group-item">
+                            <span class="fw-bold">Main Location:</span> Chicago, Illinois
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Cell Phone: </span>
+                            <a href="tel:+14436821360">(443) 682-1360</a>
+                        </li>
+                        <li class="list-group-item" style="display: none;">
+                            <span class="fw-bold">Student Phone:</span> (333) 333-3333
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Email:</span>
+                            <a href="mailto:yanniquegraham@gmail.com">yanniquegraham@codexllc.dev</a>
+                        </li>
+                        <li class="list-group-item" style="display: none;">
+                            
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="container">
+            <p class="lead">Code X LLC &copy; 2023 <br> Made with 🧠❤️📚</p>
+            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle h1"></i>
+            </a>
+        </div>
+
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="enrollLabel">Enrollment</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="lead">Fill out this form and we will get back to you</p>
+                    <form>
+                        <div class="mb-3">
+                            <label for="first-name" class="col-form-label">
+                    First Name:
+                  </label>
+                            <input type="text" class="form-control" id="first-name" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="last-name" class="col-form-label">Last Name:</label>
+                            <input type="text" class="form-control" id="last-name" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="col-form-label">Email:</label>
+                            <input type="email" class="form-control" id="email" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="col-form-label">Phone:</label>
+                            <input type="tel" class="form-control" id="phone" />
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                Close
+              </button>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+</html>
